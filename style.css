@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins",sans-serif;
+}
+
+.container{
+    padding: 45px 70px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-container > div > img{
+    width: 120px;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.list-item{
+    padding: 0px 20px;
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Righteous', sans-serif;
+    position: relative;
+}
+
+.list-item:first-child{
+    font-weight: 600;
+}
+
+.list-item:first-child:after{
+    content: "";
+    position: absolute;
+    width: 43%;
+    height: 3px;
+    top: 30px;
+    left: 31px;
+    border-bottom: 3px solid #111;
+}
+
+.button-group{
+    display: flex;
+    align-self: flex-end;
+}
+
+.search-icon{
+    padding: 0px 10px;
+}
+
+.nav-button{
+    padding: 5px 42px;
+    border: 3px solid #111;
+    background-color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+svg{
+    height: 25px;
+}
+
+/* Hero Section Start */
+
+.hero-container{
+    /* display: inline-block; */
+    display: flex;
+    position: relative;
+    padding-top: 30px;
+}
+
+.square img{
+    height: 300px;
+}
+
+.square{
+    position: absolute;
+    bottom: -100px;
+    left: 140px;
+    z-index: -1;
+}
+
+.star{
+    position: absolute;
+    right: 30px;
+    top: 80px;
+}
+
+.star img{
+    height: 60px;
+}
+
+.globe{
+    position: absolute;
+    right: 48%;
+}
+
+.globe img{
+    height: 60px;
+}
+
+.hero-container > div > img{
+    height: 470px;
+    width: auto;
+    position: relative;
+    top: 50px;
+}
+
+.hero-container-right{
+    margin: 100px 0 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* height: auto; */
+}
+
+.hero-heading{
+    font-size: 60px;
+    font-family: 'Righteous', sans-serif;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+.hero-description{
+    width: 70%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.button-email{
+    padding: 4px 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-family: 'Righteous', sans-serif;
+    font-size: 20px;
+}
+
+.button-join{
+    padding: 4px 25px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Righteous', sans-serif;
+    font-size: 20px;
+}
+
+.contact-heading{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.icons{
+    display: flex;
+}
+
+.icons span{
+    padding: 0 10px;
+}
+
+.icons span img{
+    height: 40px;
+}
