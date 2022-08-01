@@ -130,12 +130,15 @@ svg{
 }
 
 .hero-container-right{
-    margin: 100px 0 0 100px;
+    float: right;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    /* height: auto; */
+    margin-left: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding-left: 50px;
 }
 
 .hero-heading{
@@ -147,7 +150,6 @@ svg{
 
 .hero-description{
     width: 70%;
-    text-align: center;
     font-size: 15px;
 }
 
@@ -212,11 +214,69 @@ svg{
         font-size: 10px;
     }
 
+        /* Hero */
+
+        .hero-container{
+            flex-direction: column;
+        }
     
+        .hero-heading{
+            font-size: 40px;
+            letter-spacing: 3px;
+            word-spacing: 10px;
+        }
+    
+        .hero-description{
+            width: 90%;
+            font-size: 13px;
+        }
+    
+        .button-email{
+            padding: 4px 20px;
+            font-size: 15px;
+            margin-top: 30px;
+        }
+        
+        .button-join{
+            padding: 4px 20px;
+            font-size: 15px;
+            margin-top: 30px;
+        }
+        
+        .contact-heading{
+            text-align: center;
+            font-weight: 400;
+            margin-bottom: 10px;
+            margin-top: 30px;
+        }
+    
+        .hero-container div:first-of-type {
+            text-align: center;
+        }
+    
+        .hero-container > div > img{
+            height: 360px;
+        }
+    
+        .star img{
+            display: none;
+        }
+    
+        .globe img{
+            display: none;
+        }
+    
+        .square{
+            display: none;
+        }
 
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .container{
+        margin: 20px 40px;
+    }
 
     .navbar-container > div > img{
         width: 60px;
@@ -234,6 +294,60 @@ svg{
         padding: 5px 15px;
         border-radius: 10px;
         font-size: 10px;
+    }
+
+    /* Hero */
+
+    .hero-container{
+        flex-direction: column;
+    }
+
+    .hero-heading{
+        font-size: 40px;
+        letter-spacing: 3px;
+        word-spacing: 10px;
+    }
+
+    .hero-description{
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .button-email{
+        padding: 4px 20px;
+        font-size: 15px;
+    }
+    
+    .button-join{
+        padding: 4px 20px;
+        font-size: 15px;
+    }
+    
+    .contact-heading{
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    .hero-container div:first-of-type {
+        text-align: center;
+    }
+
+    .hero-container > div > img{
+        height: 360px;
+    }
+
+    .star img{
+        position: absolute;
+    }
+
+    .globe img{
+        position: absolute;
+        right: 140px;
+    }
+
+    .square{
+        display: none;
     }
 }
 
@@ -255,5 +369,40 @@ svg{
         padding: 5px 22px;
         border-radius: 10px;
         font-size: 15px;
+    }
+
+    .hero-heading{
+        font-size: 40px;
+        letter-spacing: 3px;
+        word-spacing: 10px;
+    }
+
+    .hero-description{
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .button-email{
+        padding: 4px 20px;
+        font-size: 15px;
+    }
+    
+    .button-join{
+        padding: 4px 20px;
+        font-size: 15px;
+    }
+    
+    .contact-heading{
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    .hero-container > div > img{
+        height: 360px;
+    }
+
+    .square{
+        left: 35px;
     }
 }
