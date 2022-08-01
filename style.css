@@ -190,6 +190,23 @@ svg{
 
 @media screen and (max-width: 480px) {
 
+    .navbar-container > div > img{
+        width: 40px;
+    }
+
+    .list-item{
+        font-size: 15px;
+    }
+
+    .search-icon{
+        display: none;
+    }
+
+    .nav-button{
+        padding: 5px 15px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
