@@ -7,7 +7,7 @@ This is my first project of my fullstack journey using HTML and CSS.
 
 ## Screenshot
 
-![Screenshot](./html-p1.jpg)
+![Screenshot](/screenshot.jpg)
 
 ## 🚀 About Me
 Hey 👋, I'm Aniket Pradhan, aspiring fullstack developer.
